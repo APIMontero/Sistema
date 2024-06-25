@@ -1,0 +1,80 @@
+IDE: VSCode
+Tareas:
+	Registrar sueldos brutos
+	Calcular Liquido a pagar
+
+Funcionalidades Pedidas
+	1. Registrar Trabajador
+		Datos Entrada:
+			nombre y apellidos
+			Cargo
+			Sueldo Bruto
+		Tareas:
+			Calcular los siguientes Valores:
+				Descuento Salud -> 7 %
+				Descuento AFP	-> 12%
+				Liquido A pagar <- Sueldo Bruto - Descuentos
+			Validar Datos Ingresados:
+				Nombre
+				Cargo -> Debe ser: CEO o Desarrollador o Analista de datos
+				Sueldo Bruto -> mayor que cero pesos y menor a $ 999,999,999
+
+
+	2. Listar Todos Los Trabajadores
+		Listar cada trabajador de la colección.
+		
+	3. Imprimir Planilla De Sueldos
+		a) Todos
+		b) Por cargo especificado por usuario
+		c) Debe ser impreso a archivo de texto:
+			i) texto Plano -> txt
+			ii) separado por comas -> csv
+			iii) JSON -> json
+		
+	4. Salir del programa
+		salir de la aplicación.
+	
+Requisitos:
+	Opciones desarrolladas en funciones de python.
+	Ser llamada de un programa principal.
+	Hasta que el usuario decida finalizar el programa.
+	Subir la carpeta completa a github.
+	Compartir Vinculo del repositorio.
+	
+Proceso:
+	1. Estructura -> Crear carpeta contenedora del proyecto con los archivos pedidos: 
+		principal
+		funciones o metodos
+		modelo
+	2. Contenidos: 
+		principal -> crear menu y llamar las funciones
+		metodos -> 
+			registrar(trabajadores)
+			listar(trabajadores)
+			planilla(trabajadores)
+			is_numeric(value)
+			cls()
+			wait()
+			imprimir(documento, tipo)
+			finalizar()
+			...
+		modelo ->
+			trabajador = dict(Nombre, Cargo, SueldoBruto, descuentoAFP, descuentoSalud, LiquidoPagar)
+			trabajadores = [trabajador1,..., trabajador_n]
+			CARGOS  = ['ceo','desarrollador','analista de datos']
+			tiposArchivo = ['json', 'csv', 'txt']
+			...
+	3. Creacion del codigo para cada archivo, funcion principal y funciones de apoyo.
+	4. Test unitario, de caja negra, formato de entradas y salidas de datos.
+	5. subida a github.
+
+			
+			
+	
+	
+	
+	
+	
+ 
+	
+

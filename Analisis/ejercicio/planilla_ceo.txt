@@ -1,0 +1,4 @@
+Planilla De Sueldo De Trabajadores
+
+Nombres	Cargo	Sueldo Bruto	Descuento AFP	Descuento Salud	Liquido a Pagar
+H H	ceo	1999	239.88	139.93	1619.19

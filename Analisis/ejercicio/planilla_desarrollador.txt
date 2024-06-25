@@ -1,0 +1,4 @@
+Planilla De Sueldo De Trabajadores
+
+Nombres	Cargo	Sueldo Bruto	Descuento AFP	Descuento Salud	Liquido a Pagar
+P P	desarrollador	1500	180.0	105.00000000000001	1215.0
