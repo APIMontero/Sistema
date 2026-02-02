@@ -1,0 +1,4 @@
+Planilla De Sueldo De Trabajadores
+
+Trabajador	Cargo	Sueldo Bruto	Descuento AFP	Descuento Salud	Liquido a Pagar
+Juan Manzano	ceo	4589990	550798.7999999999	321299.30000000005	3717891.9

@@ -82,7 +82,7 @@ def is_numeric(value:str) -> bool:
 
 
 def cls():
-    os.system("clear")
+    os.system("cls")
 
 
 def wait():
