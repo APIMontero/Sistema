@@ -84,5 +84,5 @@ El proyecto se generará con git en modo local, para luego ser subido a la nuve 
     Ingeniero Informatico DUOC UC, Chile.
     Analista de sistemas, Jhon F. Kennedy, Chile
     david.montero.urrutia@gmail.com
-    +56974809847
+    +569
     https://github.com/APIMontero
